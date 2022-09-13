@@ -1,0 +1,101 @@
+/* Elements */
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-image:url(assets/background.png);
+    margin: 0px;
+}
+
+header{
+    background-color: #333333;
+    padding: 0% 10%;
+    display:flex;
+    flex-direction: row;
+}
+
+nav{
+    margin-left: auto;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    margin-right: 35px;
+}
+
+a{
+    color: #ff0099;
+    text-transform: uppercase;
+}
+
+h1,h2,h3,.separator{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+p{
+    font-family: 'Inconsolata', monospace;
+}
+
+h2{
+    text-align: center;
+}
+dl{
+    font-family: 'Inconsolata', monospace; 
+}
+dt{
+    font-weight: 800;
+}
+dd{
+    margin: 25px;
+}
+
+
+/* Classes */
+
+.margin-none{
+    margin-right: 0;
+}
+
+.content{
+    margin-top: 90px;
+    padding: 0 10% 10% 10%;
+}
+
+.pink{
+    color:#ff0099;
+}
+
+.font-size-p{
+    font-size:20px;
+    line-height: 40px;
+}
+
+.separator{
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    letter-spacing: 12px;
+    font-weight: 400;
+}
+
+.info{
+    text-align: center;
+}
